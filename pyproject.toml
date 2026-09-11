@@ -1,0 +1,16 @@
+[project]
+name = "llm-estimator"
+version = "0.1.0"
+readme = "Readme.md"
+requires-python = ">=3.12"
+authors = [{ name = "Julio Amestica", email = "julio.amestica@gmail.com" }]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic-settings",
+    "openai",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false
